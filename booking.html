@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Book Service | AutoMob-Mechanic
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        AutoMob-Mechanic
+    </div>
+
+    <nav>
+
+        <a href="home.html">Home</a>
+
+        <a href="services.html">
+            Services
+        </a>
+
+        <a href="booking.html">
+            Book Service
+        </a>
+
+        <a href="appointment.html">
+            Appointment
+        </a>
+
+    </nav>
+
+</header>
+
+
+<div class="container">
+
+    <div class="title">
+
+        <h1>
+            Book a Service
+        </h1>
+
+        <p>
+            Fill in your vehicle details
+            and preferred service.
+        </p>
+
+    </div>
+
+
+    <form
+        action="booking-success.html"
+        method="get">
+
+
+        <div class="form-grid">
+
+
+            <div>
+
+                <label>
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Mobile Number
+                </label>
+
+                <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Enter mobile number"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter email"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Car Model
+                </label>
+
+                <input
+                    type="text"
+                    name="car"
+                    placeholder="Example: Swift"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Registration Number
+                </label>
+
+                <input
+                    type="text"
+                    name="registration"
+                    placeholder="Example: UP32AB1234"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Select Service
+                </label>
+
+                <select
+                    name="service"
+                    required>
+
+                    <option value="">
+                        Choose service
+                    </option>
+
+                    <option>
+                        Preventive Maintenance
+                    </option>
+
+                    <option>
+                        Body Repair
+                    </option>
+
+                    <option>
+                        Car Care
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Preferred Date
+                </label>
+
+                <input
+                    type="date"
+                    name="date"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Preferred Time
+                </label>
+
+                <input
+                    type="time"
+                    name="time"
+                    required>
+
+            </div>
+
+
+            <div class="full">
+
+                <label>
+                    Additional Details
+                </label>
+
+                <textarea
+                    name="details"
+                    placeholder="Describe the issue or service requirement">
+                </textarea>
+
+            </div>
+
+
+            <div class="full">
+
+                <button
+                    class="btn"
+                    type="submit">
+
+                    Confirm Booking
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </form>
+
+</div>
+
+
+<footer>
+
+    © 2026 AutoMob-Mechanic.
+    All Rights Reserved.
+
+</footer>
+
+</body>
+</html>

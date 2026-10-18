@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Schedule Appointment
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        AutoMob-Mechanic
+    </div>
+
+    <nav>
+
+        <a href="home.html">Home</a>
+
+        <a href="services.html">
+            Services
+        </a>
+
+        <a href="booking.html">
+            Book Service
+        </a>
+
+        <a href="appointment.html">
+            Appointment
+        </a>
+
+    </nav>
+
+</header>
+
+
+<div class="container">
+
+    <div class="title">
+
+        <h1>
+            Schedule an Appointment
+        </h1>
+
+        <p>
+            Choose a convenient date
+            and time for your visit.
+        </p>
+
+    </div>
+
+
+    <form
+        action="booking-success.html"
+        method="get">
+
+
+        <div class="form-grid">
+
+
+            <div>
+
+                <label>
+                    Customer Name
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Contact Number
+                </label>
+
+                <input
+                    type="tel"
+                    placeholder="Enter mobile number"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Vehicle Model
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Enter car model"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Service
+                </label>
+
+                <select required>
+
+                    <option value="">
+                        Select service
+                    </option>
+
+                    <option>
+                        Preventive Maintenance
+                    </option>
+
+                    <option>
+                        Body Repair
+                    </option>
+
+                    <option>
+                        Car Care
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Appointment Date
+                </label>
+
+                <input
+                    type="date"
+                    required>
+
+            </div>
+
+
+            <div>
+
+                <label>
+                    Appointment Time
+                </label>
+
+                <input
+                    type="time"
+                    required>
+
+            </div>
+
+
+            <div class="full">
+
+                <label>
+                    Message
+                </label>
+
+                <textarea
+                    placeholder="Any special request?">
+                </textarea>
+
+            </div>
+
+
+            <div class="full">
+
+                <button
+                    class="btn"
+                    type="submit">
+
+                    Schedule Appointment
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </form>
+
+</div>
+
+
+<footer>
+
+    © 2026 AutoMob-Mechanic.
+    All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
